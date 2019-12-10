@@ -8,6 +8,10 @@
         display: none;
     }
 
+    .tm-banner {
+        padding: 15px 30px;
+    }
+
     .tm-main-content {
         margin: 0;
         padding: 0;
@@ -37,7 +41,7 @@
     }
 
     .heading div {
-        padding: 0;
+        padding: 5px;
     }
 
     .heading h2 {
@@ -65,6 +69,10 @@
         padding: 0;
     }
 
+    .tm-section-description:last-of-type {
+        padding: 0 30px;
+    }
+
     .carousel {
         padding: 30px 0 0;
     }
@@ -73,10 +81,23 @@
         font-size: 18px;
         font-style: italic;
         word-spacing: 20px;
+        letter-spacing: 3px;
+    }
+
+    .blocks h2 {
+        text-transform: uppercase;
+    }
+
+    .blocks .tm-team-description-container {
+        padding: 0 45px;
+    }
+
+    #ideas .carousel-description {
+        padding: 0 50px;
     }
 
     .tm-footer {
-        margin-top: 30px;
+        margin-top: 15px;
     }
 }
 
