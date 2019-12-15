@@ -1,0 +1,180 @@
+.header .header-wrap .landing-logo p, .footer .footer-wrap .footer_logo p {
+  float: right;
+  margin-top: 20px;
+  font-size: 26px;
+  line-height: 0px; }
+  .header .header-wrap .landing-logo p span, .footer .footer-wrap .footer_logo p span {
+    display: block;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 8px; }
+
+body {
+  margin: 0;
+  font-family: "Hind", sans-serif;
+  background-color: #21232e; }
+
+.header {
+  color: #fff;
+  width: 100%;
+  height: 550px;
+  background-image: url(../img/m-h-night.jpg);
+  background-size: cover;
+  background-position-y: -200px;
+  border-bottom-right-radius: 40% 40%; }
+  .header .header-wrap {
+    padding: 20px 130px; }
+    .header .header-wrap .landing-logo {
+      width: 130px;
+      font-family: "Fresca", sans-serif; }
+    .header .header-wrap .header_heading {
+      position: relative;
+      font-size: 60px;
+      margin-top: 30px;
+      margin-bottom: 0;
+      width: 600px;
+      line-height: 60px;
+      font-weight: bold;
+      z-index: 20; }
+    .header .header-wrap .header_heading::before {
+      content: "";
+      position: absolute;
+      height: 45px;
+      left: -2px;
+      bottom: 5px;
+      background: #ff4e33;
+      width: 43%;
+      z-index: -20; }
+    .header .header-wrap .header_text {
+      font-family: "Fresca", sans-serif;
+      white-space: pre-line;
+      margin-top: 0;
+      font-weight: lighter;
+      font-size: 14px; }
+    .header .header-wrap div:last-of-type {
+      margin-top: 30px; }
+      .header .header-wrap div:last-of-type .header_button {
+        padding: 15px 35px;
+        border-radius: 5px;
+        background-color: #e3ac00;
+        color: #fff;
+        font-size: 16px;
+        border-width: 0;
+        height: 50px; }
+      .header .header-wrap div:last-of-type .login {
+        margin-left: 120px;
+        font-size: inherit;
+        color: #fff; }
+
+.section {
+  width: 840px;
+  margin: 0 auto 160px auto;
+  position: relative; }
+  .section .section_text {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    line-height: 26px; }
+  .section .section_text::before {
+    content: "";
+    height: 35px;
+    left: 430px;
+    bottom: 0;
+    background: #ff4e33;
+    width: 15%;
+    z-index: -20;
+    position: absolute; }
+  .section .section_card_wrap .section_card {
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #3b3f50;
+    border-radius: 5px; }
+    .section .section_card_wrap .section_card .section_card_img {
+      border-radius: 5px;
+      float: left;
+      width: 40%;
+      height: 100%; }
+    .section .section_card_wrap .section_card .section_card_right_container {
+      margin-bottom: 10px;
+      height: 188px;
+      padding-left: 360px; }
+      .section .section_card_wrap .section_card .section_card_right_container .section_card_heading {
+        text-align: center;
+        font-size: 18px;
+        color: #fff; }
+      .section .section_card_wrap .section_card .section_card_right_container .section_card_text {
+        font-family: "Fresca", sans-serif;
+        text-align: justify;
+        font-size: 14px;
+        padding-right: 20px;
+        color: #c0c3ce; }
+      .section .section_card_wrap .section_card .section_card_right_container .section_link {
+        padding-left: 40%;
+        font-size: 16px;
+        color: #c0c3ce; }
+  .section .section_card_wrap .section_card:last-of-type .section_card_text {
+    padding-right: 20px;
+    padding-left: 21px;
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  .section .section_banner {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: -40px;
+    bottom: -210px;
+    width: 920px;
+    height: 100px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #dea405, #96324f); }
+    .section .section_banner .section_banner_heading {
+      position: relative;
+      z-index: 20;
+      color: #fff;
+      font-size: 24px; }
+    .section .section_banner .section_banner_heading::before {
+      content: "";
+      position: absolute;
+      height: 25px;
+      left: 95px;
+      bottom: 0;
+      background: #ff4e33;
+      width: 16%;
+      z-index: -20; }
+    .section .section_banner .section_banner_text_wrap {
+      padding: 0 150px;
+      line-height: 20px;
+      color: #c0c3ce; }
+    .section .section_banner .section_banner_text {
+      font-family: "Fresca", sans-serif; }
+    .section .section_banner .section_banner_button {
+      margin-top: 25px;
+      margin-right: 150px;
+      padding: 15px 35px;
+      border-radius: 5px;
+      background-color: #e3ac00;
+      color: #fff;
+      font-size: 16px;
+      border-width: 0;
+      height: 50px; }
+
+.footer {
+  background-color: #3b3f50;
+  color: #c0c3ce; }
+  .footer .footer-wrap {
+    font-family: "Fresca", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 20px; }
+    .footer .footer-wrap .footer_logo {
+      width: 130px; }
+    .footer .footer-wrap .footer_text {
+      width: 260px;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 0; }
+    .footer .footer-wrap .footer-cr {
+      font-size: 12px; }
