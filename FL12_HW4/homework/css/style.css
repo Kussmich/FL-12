@@ -9,19 +9,25 @@
         background-position-y: 86px;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 920px;
+        height: 800px;
+    }
+
+    .header-navigation-wrapper {
+        width: 840px;
+        margin: 0 auto;
     }
 
     .header-navigation {
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-        width: 840px;
+        position: fixed;
+        width: 100%;
         height: 86px;
+        background-color: #fff;
+        margin: 0;
     }
 
     .header-navigation__title {
         margin: 0;
+        float: left;
         font-size: 22px;
         text-transform: uppercase;
         line-height: 86px;
@@ -29,6 +35,8 @@
 
     .header-navigation__nav-list {
         display: flex;
+        float: right;
+        padding: 0;
         margin: 0;
     }
 
@@ -55,7 +63,7 @@
         width: 750px;
         text-align: center;
         margin: 0 auto;
-        padding-top: 250px;
+        padding-top: 340px;
     }
 
     .header-preview__heading {
